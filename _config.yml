@@ -1,0 +1,12 @@
+# Site settings
+title: My GitHub Page
+description: Welcome to my GitHub Pages site!
+baseurl: "" # 사이트의 하위 경로
+url: "https://yourusername.github.io" # 사이트의 기본 URL
+
+# Theme settings
+theme: minima
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
