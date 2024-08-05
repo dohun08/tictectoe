@@ -1,0 +1,16 @@
+# Site settings
+title: Tic-Tac-Toe Game
+description: Simple Tic-Tac-Toe game implemented in HTML and JavaScript
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://dehgns12.github.io" # the base hostname & protocol for your site
+
+# Theme settings
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
