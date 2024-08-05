@@ -1,0 +1,60 @@
+#line > *{
+    background-color: #4AA072;
+    position: absolute;
+}
+#line1{
+    display: none;
+    width: 10px;
+    height: 500px;
+    position: absolute;
+    top: 110px;
+    left: 540px;
+}
+#line2{ display: none;
+    width: 10px;
+    height: 500px;
+    position: absolute;
+    top: 110px;
+    left: 705px;
+}
+#line3{ display: none;
+    width: 10px;
+    height: 500px;
+    position: absolute;
+    top: 110px;
+    left: 870px;
+}
+#line4{ display: none;
+    height: 10px;
+    width: 500px;
+    left: 460px;
+    top: 190px;
+}
+#line5{ display: none;
+    height: 10px;
+    width: 500px;
+    left: 460px;
+    top: 360px;
+}
+#line6{ display: none;
+    height: 10px;
+    width: 500px;
+    left: 460px;
+    top: 530px;
+}
+#line7{display: none;
+    position: absolute;
+    top: 50px;
+    left: 710px;
+    width: 10px;
+    height: 620px;
+    transform: rotate(45deg);
+}
+#line8{display: none;
+    position: absolute;
+    top: 50px;
+    left: 710px;
+    width: 10px;
+    height: 620px;
+    transform: rotate(135deg);
+}
