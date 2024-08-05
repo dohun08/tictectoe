@@ -1,5 +1,5 @@
 #playerBorad{
-    display: block;
+    display: none;
     width: 550px;
     margin: 10px auto;
     display: flex;
@@ -73,7 +73,7 @@
 
 
 #mark{
-    display: block;
+    display: none;
     background-color: black;
     color: white;
     width: 360px;
@@ -107,7 +107,7 @@
 
 
 #congrats{
-  display: flex;
+  display: none;
   position: absolute;
   justify-content: space-between;
   width: 1080px;

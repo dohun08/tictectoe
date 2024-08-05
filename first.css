@@ -3,7 +3,7 @@ body{
     background-color: #78FFB6;
 }
 #first{
-    display: none;
+    display: block;
     width: 500px;
     padding: 50px 0;
     margin: 250px auto;
