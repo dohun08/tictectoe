@@ -1,11 +1,15 @@
 # Site settings
-title: My GitHub Page
-description: Welcome to my GitHub Pages site!
-baseurl: "" # 사이트의 하위 경로
-url: "https://yourusername.github.io" # 사이트의 기본 URL
+title: Tic-Tac-Toe Game
+description: Simple Tic-Tac-Toe game implemented in HTML and JavaScript
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://dehgns12.github.io" # the base hostname & protocol for your site
 
 # Theme settings
 theme: minima
+
+# Plugins
+plugins:
+  - jekyll-sitemap
 
 # Build settings
 markdown: kramdown
