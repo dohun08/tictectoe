@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="line.css">
 </head>
 <body>
-    <article id="first">
+    <article id="first" class="g">
         <h2>몇판 몇선승제로 하시겠어요?</h2>
-        <input type="text" placeholder="몇판" class="inputBox"><br>
-        <input type="text" placeholder="몇선" class="inputBox"><br>
-        <input type="button" id="confirm" value="확인"></input><br>
+        <input type="text" placeholder="몇판" class="inputBox" id="pan"><br>
+        <input type="text" placeholder="몇선" class="inputBox" id="sun"><br>
+        <input type="button" id="confirm" value="확인" onclick="submit()"></input><br>
         <span>숫자만 입력해주세요!</span>
     </article>
     <article id="playerBorad">
@@ -36,10 +36,10 @@
     
     <article id="board">
         <section id="pan1">
-            <img src="img/O.png" alt="" id="pan1-o">
+            <img src="" alt="" id="pan1-o">
         </section>
         <section id="pan2">
-            <img src="img/X.png" alt="" id="pan2-o">
+            <img src="" alt="" id="pan2-o">
         </section>
         <section id="pan3">
             <img src="" alt="" id="pan3-o">
@@ -74,7 +74,8 @@
         <img src="img/congrats.png" alt="">
     </artice>
     <article id="mark">
-        <p><span>0</span>판 <span>0</span>선승제</p>
+        <p><span id="p">0</span>판 <span id="s">0</span>선승제</p>
     </article>
+    <script src="tictectoe.js"></script>
 </body>
 </html>

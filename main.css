@@ -1,9 +1,21 @@
+@keyframes bb {
+  from{
+    height: 10px;
+  }
+  to{
+    height: 100px;
+  }
+}
+.b{
+  animation-name: bb;
+  animation-duration: 1s;
+}
 #playerBorad{
-    display: none;
     width: 550px;
     margin: 10px auto;
-    display: flex;
+    display: none;
     align-items: center;
+    
 }
 #playerBorad > p{
     color: white;
@@ -24,6 +36,7 @@
     margin: 0 auto;
     display: none;
     flex-wrap: wrap;
+    animation: bb, 1s;
 }
 #board > section{
     display: flex;
@@ -82,11 +95,13 @@
     margin:50px auto;
     text-align: center;
     border-radius: 10px;
+    animation: bb, 1s;
 }
 
 
 
 #result{
+  display: none;
   text-align: center;
   margin: 90px auto;
   margin-bottom: 150px;
