@@ -6,16 +6,32 @@
     height: 100px;
   }
 }
+@keyframes byby {
+  from{
+    height: 100px;
+  }
+  to{
+    height: 10px;
+  }
+}
+
 .b{
   animation-name: bb;
   animation-duration: 1s;
+}
+.c{
+  animation-name: bb;
+  animation-duration: 0.5s;
+}
+.by{
+  animation: byby 0.5s;
 }
 #playerBorad{
     width: 550px;
     margin: 10px auto;
     display: none;
     align-items: center;
-    
+
 }
 #playerBorad > p{
     color: white;
@@ -37,6 +53,7 @@
     display: none;
     flex-wrap: wrap;
     animation: bb, 1s;
+    overflow: hidden;
 }
 #board > section{
     display: flex;
@@ -121,6 +138,14 @@
 }
 
 
+@keyframes hiC {
+  from{
+    height: 10px;
+  }
+  to{
+    height: 100px;
+  }
+}
 #congrats{
   display: none;
   position: absolute;
@@ -128,6 +153,10 @@
   width: 1080px;
   top: 200px;
   left: 200px;
+}
+#congrats > div{
+  overflow: hidden;
+  animation: hiC 0.5s;
 }
 #congrats > img:first-child{
   transform: rotate(270deg);

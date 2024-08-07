@@ -1,3 +1,25 @@
+@keyframes lineShowW {
+    from{
+      width: 20px;
+    }
+    to{
+      width: 500px;
+    }
+  }
+  .lineShoww{
+    animation: lineShowW 0.5s;
+  }
+@keyframes lineShowH {
+from{
+    height: 20px;
+}
+to{
+    height: 500px;
+}
+}
+.lineShowh{
+animation: lineShowH 0.5s;
+}
 #line > *{
     background-color: #4AA072;
     position: absolute;

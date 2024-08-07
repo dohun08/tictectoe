@@ -18,9 +18,9 @@
     </article>
     <article id="playerBorad">
         <p class="red">플레이어 1</p>
-        <h1>0</h1>
+        <h1 id="playerOne">0</h1>
         <h1>:</h1>
-        <h1>0</h1>
+        <h1 id="playerTwo">0</h1>
         <p class="blue">플레이어 2</p>
     </article>
     <div id="line">
@@ -35,43 +35,47 @@
     </div>
     
     <article id="board">
-        <section id="pan1">
+        <section id="pan1" data-index="1">
             <img src="" alt="" id="pan1-o">
         </section>
-        <section id="pan2">
+        <section id="pan2" data-index="2">
             <img src="" alt="" id="pan2-o">
-        </section>
-        <section id="pan3">
+        </section >
+        <section id="pan3" data-index="3">
             <img src="" alt="" id="pan3-o">
-        </section>
-        <section id="pan4">
+        </section >
+        <section id="pan4" data-index="4">
             <img src="" alt="" id="pan4-o">
-        </section>
-        <section id="pan5">
+        </section >
+        <section id="pan5" data-index="5">
             <img src="" alt="" id="pan5-o">
         </section>
-        <section id="pan6">
+        <section id="pan6" data-index="6">
             <img src="" alt="" id="pan6-o">
         </section>
-        <section id="pan7">
+        <section id="pan7" data-index="7">
             <img src="" alt="" id="pan7-o">
         </section>
-        <section id="pan8">
+        <section id="pan8" data-index="8">
             <img src="" alt="" id="pan8-o">
         </section>
-        <section id="pan9">
+        <section id="pan9" data-index="9">
             <img src="" alt=""id="pan9-o">
         </section>
     </article>
 
     <article id="result">
-        <img src="img/result-O.png" alt="">
-        <h3>플레이어 <span>0</span></h3>
-        <h1>승리</h1>
+        <img src="" alt="" id="result_img">
+        <h3>플레이어 <span id="winPlayer"></span></h3>
+        <h1 id="win">승리</h1>
     </article>
     <artice id="congrats">
-        <img src="img/congrats.png" alt="">
-        <img src="img/congrats.png" alt="">
+        <div>
+            <img src="img/congrats.png" alt="">
+        </div>
+        <div>
+            <img src="img/congrats.png" alt="">
+        </div>
     </artice>
     <article id="mark">
         <p><span id="p">0</span>판 <span id="s">0</span>선승제</p>
